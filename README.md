@@ -9,7 +9,7 @@ BigMart Sales data (8,523 rows, 12 columns) with product, outlet and sales detai
 Python, pandas, PostgreSQL, SQLAlchemy, Git
 
 ## Pipeline
-1. **Extract**: read the raw CSV from `data/dat/raw/`
+1. **Extract**: read the raw CSV from `data/raw/`
 2. **Transform**: clean the data with pandas
 3. **Load**: write the cleaned data into a PostgreSQL table (`bigmart_sales`)
 4. **Verify**: run SQL queries to confirm row counts, nulls and totals

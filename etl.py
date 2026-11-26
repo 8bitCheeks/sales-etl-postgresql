@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from sqlalchemy import create_engine
 from sqlalchemy.engine import URL
 
-CSV_PATH = "data/data/raw/bigmart_sales.csv"   
+CSV_PATH = "data/raw/bigmart_sales.csv"   
 TABLE_NAME = "bigmart_sales"
 
 def extract(path):
